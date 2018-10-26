@@ -9,13 +9,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-sans-serif;
   font-weight: bold;
-  color: $dark-grey;
+  color: $red;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 104px;
+  font-weight: 700;
   line-height: 50px;
-  color: $logoblue;
+  color: $red;
 }
 
 h2 {
@@ -37,12 +38,20 @@ h4 {
 }
 
 p {
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
   text-align: left;
 }
 
-@media(max-width:1200px) {
+@media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  line-height: 22px;
+  }
+}
+
+@media (max-width: 1200px) {
   body {
     padding-top: 50px;
   }
@@ -65,7 +74,7 @@ p {
 }
 
 a:link {
-  color: $logoorange;
+  color: $red;
 }
 
 a:visited {
@@ -88,35 +97,132 @@ a:active {
   float: left;
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
 .border-none {
   border: none;
 }
 
 .balk {
-  padding: 15px;
-  color: $white;
-  font-size: 35px;
-  margin-bottom: 15px;
+  padding: 30px;
+  margin-bottom: 62px;
+  font-size: 16px;
 }
 
-.bg-groen {
-  background-color: $green;
+.bg-dark-blue {
+  background-color: $dark-blue;
 }
 
-.bg-geel {
-  background-color: $yellow;
-}
-
-.bg-rood {
+.bg-red {
   background-color: $red;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-yellow {
+  background-color: $yellow;
 }
 
 .yellow-txt {
   color: $yellow;
 }
 
-.text-center {
+.white-txt {
+  color: $white;
+}
+
+.black-txt {
+  color: $black;
+}
+
+.idee-text {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.arrow-idee {
+  display: inline-block;
+  width: 180px;
+}
+
+@media (max-width: 767px) {
+  .idee-text {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .arrow-idee {
+    display: block !important;
+    width: 90px;
+  }
+}
+
+.idee {
+  display: inline-block;
+  width: 400px;
+}
+
+.idee-margin {
+  padding: 20px 30px;
+}
+
+.arrow-btns {
   text-align: center;
+}
+
+.arrow-btn-border {
+  border: 2px white solid;
+  font-size: 30px;
+}
+
+.arrow-btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 11px;
+  color: $white;
+  font-size: 18px;
+  font-family: $font-family-source-sans;
+}
+
+.arrow {
+  display: inline;
+  width: 90px;
+}
+
+@media (max-width: 767px) {
+  .arrow {
+    display: block;
+  }
+}
+
+.news-data-arrow {
+  width: 170px;
+}
+
+.post-arrow {
+  display: inline-block;
+  padding: 5px;
+  width: 80px;
+}
+
+.news-bottom-red {
+  background: url("../images/app-challenge-bg-img-red.svg") no-repeat fixed center;
+  background-color: $dark-blue;
+}
+
+.news-bottom-orange {
+  background: url("../images/app-challenge-bg-img-orange.svg") no-repeat fixed center;
+  background-color: $dark-blue;
 }
 
 .font-weight-normal {
@@ -138,9 +244,4 @@ a:active {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.tabbed-list {
-    display:inline-block;
-    width:100px;
 }

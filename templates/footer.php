@@ -1,51 +1,28 @@
 <footer class="content-info">
   <div class="row">
-    <div class="col-xs-12">
-      <div class="footer">
+    <div class="footer">
+      <br>
+      <br>
+      <div class="text-center">
+        <a href="https://noord-holland.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-provincie-noord-holland.svg'; ?>" alt="Provincie Noord-Holland logo"></a>
+        <a href="https://www.flevoland.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-provincie-flevoland.svg'; ?>" alt="Provincie Flevoland logo"></a>
+        <a href="https://www.provincie-utrecht.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-provincie-utrecht.svg'; ?>" alt="Provincie Utrecht logo"></a>
+        <a href="https://www.zuid-holland.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-provincie-zuid-holland.svg'; ?>" alt="Provincie Zuid-Holland logo"></a>
+        <a href="https://www.limburg.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-provincie-limburg.svg'; ?>" alt="Provincie Limburg logo"></a>
+        <a href="https://openstate.eu/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-foundation.svg'; ?>" alt="Open State Foundation logo"></a>
+        <a href="https://challenge.openstateninformatie.nl/" target="_blank" rel="noopener"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo.svg'; ?>" alt="Open Stateninformatie logo"><span class="footer-text">app&nbsp;challenge</span></a>
         <br>
-        <div class="hidden-xs text-center">
-          <div>
-            <a href="http://www.duidt.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
-            <a href="https://www.utwente.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-ut.png'; ?>" alt="Universiteit Twente logo"></a>
-            <a href="https://vu.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
-            <a href="https://petities.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-petities-white.png'; ?>" alt="Petities.nl logo"></a>
-            <a href="https://openstate.eu/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
-          </div>
+        <ul class="list-inline">
           <br>
-          <div class="row">
-            <div class="col-lg-5">
-            </div>
-            <div class="col-lg-7">
-              <ul class="list-inline left-footer-list-padding">
-                <br>
-                <br>
-                <li><a class="social left-footer-padding" href="mailto:versterkdepetitie@openstate.eu" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23VersterkDePetitie" target="_blank">#VersterkDePetitie</a></li>
-              </ul>
-            </div>
-          </div>
           <br>
-        </div>
-        <div class="visible-xs-block text-center">
-          <div>
-            <a href="http://www.duidt.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-duidt-white.svg'; ?>" alt="DUiDT logo"></a>
-            <a href="https://www.utwente.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-ut.png'; ?>" alt="Universiteit Twente logo"></a>
-            <a href="https://vu.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-vu-white.svg'; ?>" alt="VU logo"></a>
-            <a href="https://petities.nl/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-petities-white.png'; ?>" alt="Petities.nl logo"></a>
-            <a href="https://openstate.eu/" target="_blank"><img class="right-footer-image" src="<?= get_template_directory_uri() . '/dist/images/logo-open-state-white.svg'; ?>" alt="Open State Foundation logo"></a>
-          </div>
-          <br>
-          <ul class="list-inline left-footer-list-padding">
-            <li><a class="social left-footer-padding" href="mailto:versterkdepetitie@openstate.eu" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            <li><a class="social left-footer-padding" href="https://www.facebook.com/openstate/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23VersterkDePetitie" target="_blank">#VersterkDePetitie</a></li>
-          </ul>
-        <br>
-        </div>
+          <li><a class="social left-footer-padding" href="mailto:contact@openstate.eu" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          <li><a class="social left-footer-padding" href="https://www.facebook.com/OpenStateFoundation/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="social left-footer-padding" href="https://www.twitter.com/OpenStateEU" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="social left-footer-padding" href="https://github.com/openstate" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
+          <li><a class="social hashtag-font-size" href="https://twitter.com/search?f=tweets&q=%23OSIAppChallenge" target="_blank" rel="noopener">#OSIAppChallenge</a></li>
+        </ul>
       </div>
+      <br>
     </div>
   </div>
 </footer>

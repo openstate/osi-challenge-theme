@@ -1,79 +1,73 @@
-.home .header-full {
-  background-color: $white;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 65%;
+.lead {
+  background: url("../images/app-challenge-bg-img-grey.svg") no-repeat fixed center;
+  margin-top: 70px;
+  font-weight: 400;
+
+  .lead-text {
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
 
-.header-full {
-  font-size: 18px;
-  padding: 50px 0 40px 0;
+.header-logo img {
+  height: 150px;
 }
 
-.home-spacing {
-  display: none !important;
+.header-title-posts {
+  font-size: 70px;
 }
 
-.home .home-spacing {
-  display: inline !important;
-}
-
-.titellogo {
-  display: none;
-  padding-top: -20px;
-  position: absolute;
-  top: 8px;
-  right: 16 px;
-}
-
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-
-.home .waar-wanneer {
-  display: block;
-  padding-top: 0px;
-  @media(max-width: 992px) {
-    padding-top: 0px;
-    padding-bottom: 100px;
+@media (max-width: 767px) {
+  .header-title {
+    font-size: 35px;
   }
 
-  font-size: 46px;
-  font-weight: bold;
-  line-height: 50px;
-  color: $dark-grey;
+  .header-title-posts {
+    font-size: 35px;
+  }
 }
 
-.collapse li {
-  float: left;
+.date {
+  margin-top: 100px;
+  font-size: 44px;
+  font-weight: 300;
 }
 
-.nav-bar > li {
-    border:1px solid #333;
-    display:block;
-    float: left;
-    line-height:38px;
-    margin:0;
-    padding:100;
-    position:relative;
- }
+@media (min-width: 1200px) {
+  .collapse li {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .collapse li {
+    line-height: 50px;
+  }
+}
+
+.navbar {
+  box-shadow: 0 5px 10px -10px;
+}
 
 .current-menu-item {
   > a {
-    font-weight: bold;
+    color: $yellow !important;
   }
 }
 
-.in li {
-  clear: both;
-}
-
-.brand-header {
-  color: transparent;
-  font: 0 / 0 a;
-  display: inline;
+.collapse li:last-child a {
+  background-color: $red;
+  color: $white !important;
 }
 
 .nav-primary {
@@ -82,17 +76,17 @@
   font-size: 22px;
 
   a:link, a:visited {
-    color: $logoorange;
+    color: $black;
   }
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .nav-primary {
     font-size: 18px;
   }
 }
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
   .nav-primary {
     background-color: $grey;
   }
