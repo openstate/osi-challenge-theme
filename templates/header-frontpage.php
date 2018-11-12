@@ -42,7 +42,7 @@
     </div>
     <br>
     <div class="row arrow-btns">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScGzyRtTbMPn9XGf90yUVVke4hqjEfMWmTA8v_7iybUH26xxw/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-red arrow-btn vertical-align">aanmelden brainstormsessie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNXf5jJqhvcGuWDaHHYwYM0WLtfBD272TaiztLPTF63Xlq6g/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-red arrow-btn vertical-align">aanmelden pitch event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScRmcy21ew0pxYLsBx0bpbSxG7DkZra769RrQoW1otA2UHn0w/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-dark-blue arrow-btn vertical-align">stuur je idee in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
     </div>
   </div>
