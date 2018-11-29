@@ -38,23 +38,5 @@ add_filter('excerpt_more', 'new_excerpt_more');
 if ( function_exists( 'add_theme_support' ) ) {
     add_theme_support( 'post-thumbnails' );
     add_image_size( 'square-large-xs-sm', 660, 250, true); // name, width, height, crop
-    add_filter('image_size_names_choose', 'my_image_sizes2');
     add_image_size( 'square-large', 350, 350, true); // name, width, height, crop
-    add_filter('image_size_names_choose', 'my_image_sizes');
-}
-
-function my_image_sizes($sizes) {
-    $addsizes = array(
-        "square-large" => __( "Large square image")
-    );
-    $newsizes = array_merge($sizes, $addsizes);
-    return $newsizes;
-}
-
-function my_image_sizes2($sizes) {
-    $addsizes = array(
-        "square-large-xs-sm" => __( "Large image for xs and sm")
-    );
-    $newsizes = array_merge($sizes, $addsizes);
-    return $newsizes;
 }
