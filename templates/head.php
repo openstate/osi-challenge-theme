@@ -5,8 +5,8 @@
   <meta name="author" content="Open State Foundation">
   <meta property="og:title" content="Open Stateninformatie App Challenge" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://challenge.openstateninformatie.nl/wp-content/themes/versterk-de-petitie-theme/dist/images/logo-osi-app-challenge-og.png" />
-  <meta property="og:image:secure_url" content="https://challenge.openstateninformatie.nl/wp-content/themes/versterk-de-petitie-theme/dist/images/logo-osi-app-challenge-og.png" />
+  <meta property="og:image" content="https://challenge.openstateninformatie.nl/wp-content/themes/osi-challenge-theme/dist/images/logo-osi-app-challenge-og.png" />
+  <meta property="og:image:secure_url" content="https://challenge.openstateninformatie.nl/wp-content/themes/osi-challenge-theme/dist/images/logo-osi-app-challenge-og.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1500" />
   <meta property="og:image:height" content="500" />
