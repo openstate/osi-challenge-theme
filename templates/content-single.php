@@ -117,7 +117,7 @@
   <br>
   <br>
   <br>
-    <a class="idee-margin" href="https://docs.google.com/forms/d/e/1FAIpQLScRmcy21ew0pxYLsBx0bpbSxG7DkZra769RrQoW1otA2UHn0w/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-orange arrow-btn-border arrow-btn vertical-align"><span class="idee-text">stuur je idee in</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow-idee" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
+    <a class="idee-margin" href="https://docs.google.com/forms/d/e/1FAIpQLSff8z6b5ElPQpyNEn_LBxifC16ft-oqSfPC5wZWWInt5n_blQ/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-orange arrow-btn-border arrow-btn vertical-align"><span class="idee-text">aanmelden lanceer event</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow-idee" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
     <img class="img-responsive idee idee-margin" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-artwork.svg'; ?>" alt="Idee">
   <br>
   <br>

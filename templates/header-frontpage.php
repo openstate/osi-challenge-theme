@@ -32,7 +32,7 @@
     <div class="row">
       <br>
       <p class="lead-text text-center col-md-offset-3 col-md-6">
-        Vijf provincies hebben stateninformatie beschikbaar gesteld als open data. Heb jij affiniteit met besluitvorming en data? Heb jij een fantastisch idee voor een applicatie? Stuur nu je app idee in!
+        Vijf provincies hebben stateninformatie beschikbaar gesteld als open data. De deadline voor het inzenden van ideeën voor de App Challenge is verlopen. Je kan je aanmelden voor het app lanceer event van het winnende idee.
       </p>
     </div>
     <br>
