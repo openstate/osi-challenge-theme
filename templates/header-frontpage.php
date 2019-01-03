@@ -35,15 +35,9 @@
         Vijf provincies hebben stateninformatie beschikbaar gesteld als open data. Heb jij affiniteit met besluitvorming en data? Heb jij een fantastisch idee voor een applicatie? Stuur nu je app idee in!
       </p>
     </div>
-    <div class="row">
-      <p class="date text-center col-md-offset-4 col-md-4">
-        09.12.2018
-      </p>
-    </div>
     <br>
     <div class="row arrow-btns">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeNXf5jJqhvcGuWDaHHYwYM0WLtfBD272TaiztLPTF63Xlq6g/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-red arrow-btn vertical-align">aanmelden pitch event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScRmcy21ew0pxYLsBx0bpbSxG7DkZra769RrQoW1otA2UHn0w/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-dark-blue arrow-btn vertical-align">stuur je idee in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSff8z6b5ElPQpyNEn_LBxifC16ft-oqSfPC5wZWWInt5n_blQ/viewform" target="_blank" rel="noopener"><button type="button" class="btn bg-red arrow-btn vertical-align">aanmelden lanceer event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-responsive arrow" src="<?= get_template_directory_uri() . '/dist/images/app-challenge-arrow-white.svg'; ?>" alt="Pijl"></button></a>
     </div>
   </div>
 </header>
